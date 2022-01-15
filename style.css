@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Nunito+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+/*--------------------------------------    Header Star From Here -------------------------------------*/
+
+
+    
+
+.navigation {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.logo-text {
+    margin-left: 120px;
+    font-size: 20px;
+}
+.logo-text h2 {
+    margin-bottom: 6px;
+}
+.nav-items {
+    margin-right: 120px;
+}
+.nav-items ul {
+    display: flex;
+}
+.nav-items ul a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+.nav-items li {
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+
+/* section-1 start form here  */
+
+.container-1 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('./images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position-x: 82%;
+}
+
+.text-info {
+    margin-left: 110px;
+}
+.text-info h1 {
+    font-size: 50px;
+}
+.text-info p {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 25px 0px;
+}
+.text-info button {
+    border: none;
+    padding: 10px 70px 10px 50px;
+    background-color: #eb2161;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.text-info button:hover{
+    padding: 10px 90px 10px 60px;
+}
+.icon {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 3px 0px 0px 10px;
+    position: absolute;
+}
+
+.img-camera {
+    margin-right: 165px;
+}
+
+
+/* section-2 start from here  */
+
+
+.container-3 h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.companies {
+    width: 100%;
+    height: 100px;
+    padding: 0 210px;
+    margin-top: 100px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+/* section-3 start form here  */
+
+.boxes {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    padding: 0px 140px;
+    margin-bottom: 50px;
+}
+
+.box {
+    width: 330px;
+    height: 480px;
+    background-color: #F1F1F1;
+    margin: 0px auto;
+    border-radius: 10px;
+    padding: 11px;
+    cursor: pointer;
+}
+
+.box img {
+    width: 100%;
+}
+.dollar {
+    padding: 5px 0px 15px 0px;
+    font-weight: 600;
+}
+.rating {
+    font-size: 15px;
+}
+
+.rating i {
+    color: #FB8200;
+}
+.rating span {
+    font-weight: 600;
+    color: #787885;
+}
+.descr {
+    font-size: 20px;
+    background-color: #f1f1f1;
+}
+.descr h1 {
+    font-size: 28px;
+}
+.bottom-text {
+    font-size: 16px;
+    color: #787885;
+    padding: 10px 0px 0px 0px;
+    font-weight: 700;
+}
+
+.explore {
+    text-align: right;
+    margin: 0px 180px 0px 0px;
+    font-size: 20px;
+    color: #e92b67;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+/* section-4 start from here  */
+
+.container-4 {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contact-form {
+    width: 500px;
+    height: 570px;
+    background-color: #ddd;
+    margin: 0px auto;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+#name {
+    padding: 5px;
+    border: none;
+    font-weight: 700;
+    width: 48%;
+    margin-top: 15px;
+}
+#Email {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    font-weight: 700;
+    margin-top: 30px;
+
+}
+#text-area {
+    width: 100%;
+    margin-top: 30px;
+}
+.btn {
+    width: 100%;
+    text-align: center;
+}
+.btn button {
+    border: none;
+    padding: 10px 60px 10px 40px;
+    background-color: #eb2161;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+.btn button:hover{
+    padding: 10px 70px 10px 50px;
+}
+
+
+/* Footer  */
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+footer i {
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 15px
+}
+.fp {
+    font-size: small;
+    line-height: 2.3
+}
+.footer-text {
+    color: rgba(228, 186, 186, 0.692);
+    font-size: 13px;
+}
+
+
+/* 
+--------------------------
+----Media Query for mobile devices -
+------------------ */
+
+@media only screen and (max-width:688px){
+
+.logo-text {
+    font-size: 16px;
+    margin: 0 auto;
+}
+.nav-items{
+    display: none;
+}
+.text-info {
+    text-align: center;
+    margin:0px;
+    width: 100%;
+}
+.container-1{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-position-y: 320px;
+    background-size: contain;
+}
+.img-camera{
+    width: 100%;
+    background-size: cover;
+    margin:0px;
+    text-align: center;
+}
+.img-camera img {
+    width: 80%;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+.text-info h1 {
+    font-size: 37px;
+}
+.text-info p {
+    padding: 15px;
+}
+.companies{
+    display: none;
+}
+.boxes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+}
+.explore{
+    margin: 0px 100px 0px 0px;
+    font-size: 16px;
+}
+.contact-form{
+   width: 80%;
+}
+footer{
+
+} 
+}
+
+
+
+
+ /* Tablet Decives  */
+
+
+
+
+@media only screen and (min-width:688px) and (max-width:992px){
+
+    .logo-text {
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    .nav-items{
+        display: none;
+    }
+    .text-info {
+        text-align: center;
+        margin:0px;
+        width: 100%;
+    }
+    .container-1{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        background-position-y: 450px;
+        background-size: contain;
+    }
+    .img-camera{
+        width: 100%;
+        background-size: cover;
+        margin:0px;
+        text-align: center;
+        height: 919px;
+    }
+    .img-camera img {
+        width: 80%;
+        margin-top: 190px;
+        margin-bottom: 70px;
+    }
+    .text-info h1 {
+        font-size: 50px;
+    }
+    .text-info p {
+        padding: 15px;
+        font-size: 25px;
+        line-height: 2;
+    }
+    .companies{
+        display: none;
+    }
+
+    .boxes{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      margin-top: 60px;
+      width: 100%;
+      padding: 0px;
+    }
+    .container-3{
+        margin: 0px;
+    }
+    .explore{
+        margin: 0px 100px 0px 0px;
+        font-size: 16px;
+    }
+    .contact-form{
+       width: 80%;
+    }
+  
+
+
+}
+
